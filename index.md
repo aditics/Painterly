@@ -5,8 +5,6 @@
 An application to render painted versions of photographs. The final image is formed by merging multiple layers of painterly layers each layer represents an image rendered with brush strokes of a specific radius. Using different style parameters, images are rendered in various painting stroke styles like Impressionist, Expressionist, Colorist Wash, Pointillist or a Generic style.
 
 ![1](images/1.PNG)
-Format: ![A painterly effect created with circular brush strokes with 8, 4, and 2 in Impressionist style. The layer are superimposed to form the final image.]
-
 
 ## Goal
 This project is based on Painterly Rendering with Curved Brush Strokes Hertzmann , A., 1998]. Based on the information in the paper, the original scope of the project consists of the following –
@@ -28,10 +26,12 @@ This project is based on Painterly Rendering with Curved Brush Strokes Hertzmann
   * Layer for radius 2 will be produced. This layer will be merged on top of the previous layer. This will be the final result
   
   
-##  Showcase: image
+##  Showcase:
+![2](images/2.PNG)
 
 ##  Project Pipeline
   ### Images
+      ![3](images/3.PNG)
   ### Points:
   
   * Input: Input image name and style specification:: Input image name and style specification:
