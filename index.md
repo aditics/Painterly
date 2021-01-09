@@ -23,8 +23,7 @@ This project is based on Painterly Rendering with Curved Brush Strokes Hertzmann
  *  A paint() function will be implemented to superimpose the painted layers one on top of the other. The layer produced with the smallest brush sized will be on top. If given brush sizes are 8, 4, and 2, then,
   * Layer for radius 8 will be produced.
   * Layer for radius 4 will be produced. This layer will be merged on top of the previous layer.
-  * Layer for radius 2 will be produced. This layer will be merged on top of the previous layer. This will be the final result
-  
+  * Layer for radius 2 will be produced. This layer will be merged on top of the previous layer. This will be the final result.
   
 ##  Showcase:
 ![2](images/2.PNG)
@@ -52,3 +51,39 @@ paint_generic_layer (). Make_stroke simple places a circle or a short anti alias
   
   * Output: Save the final image.
   
+## Demonstration: Result Sets
+### Generic Style - Oranges.jpg
+    * All input files for Generic style can be found here: [link]
+    * Results of Generic style painterly rendering: [link]
+    
+ ![5](images/5.PNG)
+ 
+#### Circle strokes
+   * Results of Generic style painterly rendering: [link]
+   
+![6](images/6.PNG)
+
+#### Anti-aliased strokes
+   * Results of Generic style painterly rendering: [link]
+   
+![7](images/7.PNG)
+
+### Generic Style - vases.jpg
+    * All input files for Generic style can be found here: [link]
+    * Results of Generic style painterly rendering: [link]
+    
+ ![8](images/8.PNG)
+ 
+#### Circle strokes
+   * Results of Generic style painterly rendering: [link]
+   
+![9](images/9.PNG)
+
+#### Anti-aliased strokes
+   * Results of Generic style painterly rendering: [link]
+   
+![10](images/10.PNG)
+
+   
+
+
