@@ -84,6 +84,168 @@ paint_generic_layer (). Make_stroke simple places a circle or a short anti alias
    
 ![10](images/10.PNG)
 
+### Generic Style - fruits.jpg
+    * All input files for Generic style can be found here: [link]
+    * Results of Generic style painterly rendering: [link]
+    
+ ![11](images/11.PNG)
+ 
+#### Circle strokes
+   * Results of Generic style painterly rendering: [link]
    
+![12](images/12.PNG)
+
+#### Anti-aliased strokes
+   * Results of Generic style painterly rendering: [link]
+   
+![13](images/13.PNG)
+
+### Generic Style - tomatoes.jpg
+    * All input files for Generic style can be found here: [link]
+    * Results of Generic style painterly rendering: [link]
+    
+ ![14](images/15.PNG)
+ 
+#### Circle strokes
+   * Results of Generic style painterly rendering: [link]
+   
+![15](images/15.PNG)
+
+#### Anti-aliased strokes
+   * Results of Generic style painterly rendering: [link]
+   
+![16](images/16.PNG)
+
+### Impressionist, Expressionist, Colorist Wash and Pointillist Style - oranges.jpg
+    * All input files for Generic style can be found here: [link]
+    * Results of Generic style painterly rendering: [link]
+    
+ ![17](images/17.PNG)
+ 
+#### Impressionist Style - oranges.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![18](images/18.PNG)
+
+#### Expressionist Style - oranges.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![19](images/19.PNG)
+
+#### Colorist Wash Style - oranges.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![20](images/20.PNG)
+
+#### Pointillist Style - oranges.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![21](images/21.PNG)
+
+
+### Impressionist, Expressionist, Colorist Wash and Pointillist Style - vases.jpg
+    * All input files for Generic style can be found here: [link]
+    * Results of Generic style painterly rendering: [link]
+    
+ ![22](images/22.PNG)
+ 
+#### Impressionist Style - vases.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![23](images/23.PNG)
+
+#### Expressionist Style - vases.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![24](images/24.PNG)
+
+#### Colorist Wash Style - vases.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![25](images/25.PNG)
+
+#### Pointillist Style - vases.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![26](images/26.PNG)
+
+
+### Impressionist, Expressionist, Colorist Wash and Pointillist Style - fruits.jpg
+    * All input files for Generic style can be found here: [link]
+    * Results of Generic style painterly rendering: [link]
+    
+ ![27](images/27.PNG)
+ 
+#### Impressionist Style - fruits.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![28](images/28.PNG)
+
+#### Expressionist Style - fruits.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![29](images/29.PNG)
+
+#### Colorist Wash Style - fruits.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![30](images/30.PNG)
+
+#### Pointillist Style - fruits.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![31](images/31.PNG)
+
+
+### Impressionist, Expressionist, Colorist Wash and Pointillist Style - tomatoes.jpg
+    * All input files for Generic style can be found here: [link]
+    * Results of Generic style painterly rendering: [link]
+    
+ ![32](images/32.PNG)
+ 
+#### Impressionist Style - tomatoes.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![33](images/33.PNG)
+
+#### Expressionist Style - tomatoes.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![34](images/34.PNG)
+
+#### Colorist Wash Style - tomatoes.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![35](images/35.PNG)
+
+#### Pointillist Style - tomatoes.jpg
+   * Results of Generic style painterly rendering: [link]
+   
+![36](images/36.PNG)
+
+
+### Result Set:
+
+![37](images/37.PNG)
+
+### Project Development
+
+#### Problems
+
+![38](images/38.PNG)
+
+![39](images/39.PNG)
+
+#### Good and failed results
+
+![40](images/40.PNG)
+
+![41](images/41.PNG)
+
+### Comparison
+
+![42](images/42.PNG)
+
+![43](images/43.PNG)
 
 
