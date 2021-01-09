@@ -30,10 +30,10 @@ This project is based on Painterly Rendering with Curved Brush Strokes Hertzmann
 ![2](images/2.PNG)
 
 ##  Project Pipeline
-  ### Images
       ![3](images/3.PNG)
-  ### Points:
-  
+      
+      ![4](images/4.PNG)
+   
   * Input: Input image name and style specification:: Input image name and style specification:
     e.g.: python.exe ./painterly.py python.exe ./painterly.py image_name.jpg 1
     
