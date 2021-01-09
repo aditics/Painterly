@@ -4,6 +4,8 @@
 # Artistic Strokes for Images
 An application to render painted versions of photographs. The final image is formed by merging multiple layers of painterly layers each layer represents an image rendered with brush strokes of a specific radius. Using different style parameters, images are rendered in various painting stroke styles like Impressionist, Expressionist, Colorist Wash, Pointillist or a Generic style.
 
+![1](/images/1.png)
+Format: ![A painterly effect created with circular brush strokes with 8, 4, and 2 in Impressionist style. The layer are superimposed to form the final image.]
 
 
 ## Goal
