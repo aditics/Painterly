@@ -1,1 +1,1 @@
-# Painterly
+# Artistic Brushstrokes for Images
