@@ -1,5 +1,3 @@
-# Computational Photography (CS 6475) Final Project
-
 # Artistic Strokes for Images
 An application to render painted versions of photographs. The final image is formed by merging multiple layers of painterly layers each layer represents an image rendered with brush strokes of a specific radius. Using different style parameters, images are rendered in various painting stroke styles like Impressionist, Expressionist, Colorist Wash, Pointillist or a Generic style.
 
