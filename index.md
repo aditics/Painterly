@@ -51,192 +51,156 @@ paint_generic_layer (). Make_stroke simple places a circle or a short anti alias
   
   * Output: Save the final image.
   
-## Demonstration: Result Sets
-### Generic Style - Oranges.jpg
+## Result Sets
+### Generic style results
     * All input files for Generic style can be found here: [link]
-    * Results of Generic style painterly rendering: [link]
+
+ #### oranges.jpg
     
+    * Results of Generic style painterly rendering: [link]
  ![5](images/5.PNG)
  
-#### Circle strokes
-   * Results of Generic style painterly rendering: [link]
-   
-![6](images/6.PNG)
-
-#### Anti-aliased strokes
-   * Results of Generic style painterly rendering: [link]
-   
-![7](images/7.PNG)
-
-### Generic Style - vases.jpg
+ #### vases.jpg
     * All input files for Generic style can be found here: [link]
     * Results of Generic style painterly rendering: [link]
-    
  ![8](images/8.PNG)
  
-#### Circle strokes
-   * Results of Generic style painterly rendering: [link]
-   
-![9](images/9.PNG)
-
-#### Anti-aliased strokes
-   * Results of Generic style painterly rendering: [link]
-   
-![10](images/10.PNG)
-
-### Generic Style - fruits.jpg
+ #### fruits.jpg
     * All input files for Generic style can be found here: [link]
     * Results of Generic style painterly rendering: [link]
-    
  ![11](images/11.PNG)
  
-#### Circle strokes
-   * Results of Generic style painterly rendering: [link]
-   
-![12](images/12.PNG)
-
-#### Anti-aliased strokes
-   * Results of Generic style painterly rendering: [link]
-   
-![13](images/13.PNG)
-
-### Generic Style - tomatoes.jpg
+ #### tomatoes.jpg
     * All input files for Generic style can be found here: [link]
     * Results of Generic style painterly rendering: [link]
-    
  ![14](images/15.PNG)
  
-#### Circle strokes
+
+### Circle stroke results
+
+#### oranges.jpg
    * Results of Generic style painterly rendering: [link]
-   
+![6](images/6.PNG)
+
+#### vases.jpg
+   * Results of Generic style painterly rendering: [link]  
+![9](images/9.PNG)
+
+#### fruits.jpg
+   * Results of Generic style painterly rendering: [link]
+![12](images/12.PNG)
+
+#### tomatoes.jpg
+   * Results of Generic style painterly rendering: [link]
 ![15](images/15.PNG)
 
-#### Anti-aliased strokes
+### Anti-aliased stroke results
+
+#### oranges.jpg
    * Results of Generic style painterly rendering: [link]
-   
+![7](images/7.PNG)
+
+#### vases.jpg
+   * Results of Generic style painterly rendering: [link]   
+![10](images/10.PNG)
+
+#### fruits.jpg
+   * Results of Generic style painterly rendering: [link]
+![13](images/13.PNG)
+
+#### tomatoes.jpg
+   * Results of Generic style painterly rendering: [link]
 ![16](images/16.PNG)
 
-### Impressionist, Expressionist, Colorist Wash and Pointillist Style - oranges.jpg
+
+### Impressionist, Expressionist, Colorist Wash and Pointillist Styles
     * All input files for Generic style can be found here: [link]
-    * Results of Generic style painterly rendering: [link]
     
+#### oranges.jpg
  ![17](images/17.PNG)
  
-#### Impressionist Style - oranges.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![18](images/18.PNG)
-
-#### Expressionist Style - oranges.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![19](images/19.PNG)
-
-#### Colorist Wash Style - oranges.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![20](images/20.PNG)
-
-#### Pointillist Style - oranges.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![21](images/21.PNG)
-
-
-### Impressionist, Expressionist, Colorist Wash and Pointillist Style - vases.jpg
-    * All input files for Generic style can be found here: [link]
-    * Results of Generic style painterly rendering: [link]
-    
+#### vases.jpg
  ![22](images/22.PNG)
  
-#### Impressionist Style - vases.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![23](images/23.PNG)
-
-#### Expressionist Style - vases.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![24](images/24.PNG)
-
-#### Colorist Wash Style - vases.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![25](images/25.PNG)
-
-#### Pointillist Style - vases.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![26](images/26.PNG)
-
-
-### Impressionist, Expressionist, Colorist Wash and Pointillist Style - fruits.jpg
-    * All input files for Generic style can be found here: [link]
-    * Results of Generic style painterly rendering: [link]
-    
+#### fruits.jpg
  ![27](images/27.PNG)
  
-#### Impressionist Style - fruits.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![28](images/28.PNG)
-
-#### Expressionist Style - fruits.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![29](images/29.PNG)
-
-#### Colorist Wash Style - fruits.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![30](images/30.PNG)
-
-#### Pointillist Style - fruits.jpg
-   * Results of Generic style painterly rendering: [link]
-   
-![31](images/31.PNG)
-
-
-### Impressionist, Expressionist, Colorist Wash and Pointillist Style - tomatoes.jpg
-    * All input files for Generic style can be found here: [link]
-    * Results of Generic style painterly rendering: [link]
-    
+#### tomatoes.jpg
  ![32](images/32.PNG)
  
-#### Impressionist Style - tomatoes.jpg
+### Impressionist Style
    * Results of Generic style painterly rendering: [link]
-   
+
+#### oranges.jpg
+![18](images/18.PNG)
+
+#### vases.jpg
+![23](images/23.PNG)
+
+#### fruits.jpg
+![28](images/28.PNG)
+
+#### tomatoes.jpg
 ![33](images/33.PNG)
 
-#### Expressionist Style - tomatoes.jpg
+### Expressionist Style
    * Results of Generic style painterly rendering: [link]
    
+#### oranges.jpg
+![19](images/19.PNG)
+
+#### vases.jpg
+![24](images/24.PNG)
+
+#### fruits.jpg
+![29](images/29.PNG)
+
+#### tomatoes.jpg
 ![34](images/34.PNG)
 
-#### Colorist Wash Style - tomatoes.jpg
-   * Results of Generic style painterly rendering: [link]
-   
+### Colorist Wash Style results
+
+#### oranges.jpg
+![20](images/20.PNG)
+
+#### vases.jpg
+![25](images/25.PNG)
+
+#### fruits.jpg
+![30](images/30.PNG)
+
+#### tomatoes.jpg
 ![35](images/35.PNG)
 
-#### Pointillist Style - tomatoes.jpg
-   * Results of Generic style painterly rendering: [link]
-   
+
+### Pointillist Style results
+  * Results of Generic style painterly rendering: [link]
+  
+#### oranges.jpg
+![21](images/21.PNG)
+
+#### vases.jpg
+![26](images/26.PNG)
+
+#### fruits.jpg   
+![31](images/31.PNG)
+
+#### tomatoes.jpg
 ![36](images/36.PNG)
 
 
-### Result Set:
-
+### Style Parameters:
 ![37](images/37.PNG)
 
-### Project Development
+## Project Development
 
-#### Problems
+### Problems faces
 
 ![38](images/38.PNG)
 
 ![39](images/39.PNG)
 
-#### Good and failed results
+### Good and failed results
 
 ![40](images/40.PNG)
 
