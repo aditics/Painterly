@@ -52,70 +52,49 @@ paint_generic_layer (). Make_stroke simple places a circle or a short anti alias
   * Output: Save the final image.
   
 ## Result Sets
-### Generic style results
-    * All input files for Generic style can be found here: [link]
+* All input files for Generic style can be found here: [link](https://drive.google.com/drive/folders/1JheSuR81CjEqMC4Wu9F-scmnUKcKg7yB?usp=sharing)
+* All output results can be viewed here: [link](https://drive.google.com/drive/folders/1qTxX0Iv_cqVme2xFVz9JpLIJNVBk5Tyx?usp=sharing)
 
+### Generic style results
  #### oranges.jpg
-    
-    * Results of Generic style painterly rendering: [link]
  ![5](images/5.PNG)
  
  #### vases.jpg
-    * All input files for Generic style can be found here: [link]
-    * Results of Generic style painterly rendering: [link]
  ![8](images/8.PNG)
  
  #### fruits.jpg
-    * All input files for Generic style can be found here: [link]
-    * Results of Generic style painterly rendering: [link]
  ![11](images/11.PNG)
  
  #### tomatoes.jpg
-    * All input files for Generic style can be found here: [link]
-    * Results of Generic style painterly rendering: [link]
  ![14](images/15.PNG)
  
-
 ### Circle stroke results
-
 #### oranges.jpg
-   * Results of Generic style painterly rendering: [link]
 ![6](images/6.PNG)
 
 #### vases.jpg
-   * Results of Generic style painterly rendering: [link]  
 ![9](images/9.PNG)
 
 #### fruits.jpg
-   * Results of Generic style painterly rendering: [link]
 ![12](images/12.PNG)
 
 #### tomatoes.jpg
-   * Results of Generic style painterly rendering: [link]
 ![15](images/15.PNG)
 
 ### Anti-aliased stroke results
-
 #### oranges.jpg
-   * Results of Generic style painterly rendering: [link]
 ![7](images/7.PNG)
 
 #### vases.jpg
-   * Results of Generic style painterly rendering: [link]   
 ![10](images/10.PNG)
 
 #### fruits.jpg
-   * Results of Generic style painterly rendering: [link]
 ![13](images/13.PNG)
 
 #### tomatoes.jpg
-   * Results of Generic style painterly rendering: [link]
 ![16](images/16.PNG)
 
-
 ### Impressionist, Expressionist, Colorist Wash and Pointillist Styles
-    * All input files for Generic style can be found here: [link]
-    
 #### oranges.jpg
  ![17](images/17.PNG)
  
@@ -129,8 +108,6 @@ paint_generic_layer (). Make_stroke simple places a circle or a short anti alias
  ![32](images/32.PNG)
  
 ### Impressionist Style
-   * Results of Generic style painterly rendering: [link]
-
 #### oranges.jpg
 ![18](images/18.PNG)
 
@@ -144,8 +121,6 @@ paint_generic_layer (). Make_stroke simple places a circle or a short anti alias
 ![33](images/33.PNG)
 
 ### Expressionist Style
-   * Results of Generic style painterly rendering: [link]
-   
 #### oranges.jpg
 ![19](images/19.PNG)
 
@@ -159,7 +134,6 @@ paint_generic_layer (). Make_stroke simple places a circle or a short anti alias
 ![34](images/34.PNG)
 
 ### Colorist Wash Style results
-
 #### oranges.jpg
 ![20](images/20.PNG)
 
@@ -172,10 +146,7 @@ paint_generic_layer (). Make_stroke simple places a circle or a short anti alias
 #### tomatoes.jpg
 ![35](images/35.PNG)
 
-
-### Pointillist Style results
-  * Results of Generic style painterly rendering: [link]
-  
+### Pointillist Style results  
 #### oranges.jpg
 ![21](images/21.PNG)
 
@@ -188,12 +159,10 @@ paint_generic_layer (). Make_stroke simple places a circle or a short anti alias
 #### tomatoes.jpg
 ![36](images/36.PNG)
 
-
 ### Style Parameters:
 ![37](images/37.PNG)
 
 ## Project Development
-
 ### Progress:
   * Based on [SIGGRAPH ’98 ––[1]], I started out with a basic skeleton of the code by following the algorithm in the paper.
   * I started working with the ‘tomatoes’ image in the Figure 2(a) in the paper with only a single radius/layer.
