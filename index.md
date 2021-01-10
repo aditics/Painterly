@@ -1,4 +1,6 @@
-
+---
+title-heading: false
+---
 # Computational Photography (CS 6475) Final Project
 
 # Artistic Strokes for Images
