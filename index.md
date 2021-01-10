@@ -199,25 +199,26 @@ The difference can be observed from the figures below:
 ### Functional Description:
 
   * The creation of layers for each radius start in the paint functions paint() or paint_generic
-    ** Paint: The function applies a Gaussian blur to the source image with the current radius. The kernel size for the Gaussian kernel is calculated as:
-      *** Blur_factor * radius
-      *** However, OpenCV’s Gaussian kernel size needs to be positive and odd. To satisfy this condition, the kernel size is calculated as follows:
+    * Paint: The function applies a Gaussian blur to the source image with the current radius. The kernel size for the Gaussian kernel is calculated as:
+      * Blur_factor x radius
+      * However, OpenCV’s Gaussian kernel size needs to be positive and odd. To satisfy this condition, the kernel size is calculated as follows:
           if (radius * BLUR _FACTOR)%2 == 0 then
               ksize = (radius * BLUR _FACTOR) + 1
           else
               ksize = radius * BLUR _FACTOR
   * Once the reference image is obtained from the Gaussian blur, the paint_layer () (or paint_generic_layer () function) is invoked.
   * Paint_layer:
-    ** This function calculates a pointwise difference image of the canvas and reference_image. Here, the key is to set th e cavas color to a high integer value so the the difference calsulated it high enough to pass the threshold check later on in the function. I set the canvas value to 550 as follows:
+    * This function calculates a pointwise difference image of the canvas and reference_image. Here, the key is to set th e cavas color to a high integer value so the the difference calsulated it high enough to pass the threshold check later on in the function. I set the canvas value to 550 as follows:
       
       canvas = np.zeros(source_image.shape , dtype =np.uint8)
       canvas.fill(-550)
-    ** The difference D is calculated as:
+      
+    * The difference D is calculated as:
        D = |(r1,g1,b1) ––(r2,g2,b2)| = ((r1 - r2)^2 + (g1 - g2)^2 + (b1 - b2)^2)^1/2
-    ** The luminance of the image is calculated as L(r,g,b) = 0.30*r + 0.59*g + 0.11 b (as given in the paper.)
-    ** Gradient of the image is determined by using the Sobel filtered Luminance values.
-    ** The grid is calculated as grid_size radius
-    ** For each grid in the image:
+    * The luminance of the image is calculated as L(r,g,b) = 0.30*r + 0.59*g + 0.11 b (as given in the paper.)
+    * Gradient of the image is determined by using the Sobel filtered Luminance values.
+    * The grid is calculated as grid_size radius
+    * For each grid in the image:
        *** The grid error is calculated from the difference image in order to find the correct stroke points.
            M = D[ y:y+grid , x:x+grid]
            error = sum(M) / grid^2
@@ -225,28 +226,28 @@ The difference can be observed from the figures below:
            If areaError >>(APPROXIMATION_THRESHOLD / radius then
              (x1, y1) = argmax(M)
              
-       *** Note: In the paper the threshold is not divided by the radius for the threshold check. I have done this as a step to make sure that as many stroke points on the canvas can be retrieved as possible. That is only possible if the threshold check is passed.
-       ** For Generic style paintings, The ( y1) coordinates in the grid are used to make call to the make_stroke () which is explained
-       ** For other styles, the make_spline_stroke method is called to retrieve the stroke points of a long curved stroke.
-       ** At this point all the strokes retrieved are shuffled in a random order and the canvas is painted. The shuffling helps create a natural hand painted look. For styles other than ‘Generic’, the paint_stroke () function is invoked.
+       * Note: In the paper the threshold is not divided by the radius for the threshold check. I have done this as a step to make sure that as many stroke points on the canvas can be retrieved as possible. That is only possible if the threshold check is passed.
+       * For Generic style paintings, The ( y1) coordinates in the grid are used to make call to the make_stroke () which is explained
+       * For other styles, the make_spline_stroke method is called to retrieve the stroke points of a long curved stroke.
+       * At this point all the strokes retrieved are shuffled in a random order and the canvas is painted. The shuffling helps create a natural hand painted look. For styles other than ‘Generic’, the paint_stroke () function is invoked.
        
     * Make_stroke: This function is used for producing ‘Generic’ style paintings. It creates two copies of the canvas and paints it.
-      ** One canvas is painted by placing a ‘circle’ as a stroke at the (x, y) point passed as a parameter to this function. The radius of the layer is used as a radius of the circle. ‘color’ is color of the stroke from source image.
+      * One canvas is painted by placing a ‘circle’ as a stroke at the (x, y) point passed as a parameter to this function. The radius of the layer is used as a radius of the circle. ‘color’ is color of the stroke from source image.
          cv2.circle( circle_based_image , (int(x), int(y)), radius, color, 1)
          
-      ** The canvas is painted with short strokes which are anti alias lines painted at a hard coded angle from the given point.
+      * The canvas is painted with short strokes which are anti alias lines painted at a hard coded angle from the given point.
          cv2.line( line_based_image , (x, y), (x1, y1), color, style.MAXIMUM_STROKE_ LENGTH (=5), lineType =cv2.LINE_AA)
      
     * Make_spline_stroke: This is the most vital method as it retrived the stroke point on the long curved strokes need for the painterly effect.
-      ** The stroke color is retrieved from the Gaussian blurred reference image.
-      ** The initial (x, y) value are the starting points of the stroke. The co-ordinates of this point are passed from the paint_layer.
+      * The stroke color is retrieved from the Gaussian blurred reference image.
+      * The initial (x, y) value are the starting points of the stroke. The co-ordinates of this point are passed from the paint_layer.
           For I =0 to maximum_stroke_length
-          *** Compute and compare the absolute difference between colors of the ( reference_image and canvas) and ( reference_image and stroke_color )
-          *** If i minimum_stroke_length and reference_image canvas reference_image stroke_color ) or if the gradient magnitude is
+          * Compute and compare the absolute difference between colors of the ( reference_image and canvas) and ( reference_image and stroke_color )
+          * If i minimum_stroke_length and reference_image canvas reference_image stroke_color ) or if the gradient magnitude is
                  Return the existing stoke points from the function.
-          *** Find direction of the stroke point from the gradient computed earlier
-          *** To minimize the stroke curvature, the stroke direction can be reversed ad dx, dy = dx, dy
-          *** Next the stroke direction is filtered using the curvature_filter parameter as:
+          * Find direction of the stroke point from the gradient computed earlier
+          * To minimize the stroke curvature, the stroke direction can be reversed ad dx, dy = dx, dy
+          * Next the stroke direction is filtered using the curvature_filter parameter as:
               D’i = fc Di + (1 - fc) D’i - 1 = (fc dxi + (1 - fc ) dx’i - 1 , fc dyi + (1 - fc) dy’i - 1)
 
 ### Comparison
